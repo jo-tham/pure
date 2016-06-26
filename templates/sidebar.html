@@ -5,7 +5,7 @@
                 <hgroup>
                     <h1 class="brand-main"><a href="/">{{ SITENAME }}</a></h1>
                     <p class="tagline">{{ TAGLINE }}</p>
-                {% for title, link in MENUITEMS %}
+                {% for title, link in LINKS %}
                     <p class="links"><a href="{{ link }}">{{ title }}</a></p>
                 {% endfor %}
                 {% if DISPLAY_PAGES_ON_MENU %}
